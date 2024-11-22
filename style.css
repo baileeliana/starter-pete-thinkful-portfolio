@@ -76,3 +76,33 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+
+/*Groups and Items*/
+.group {
+  display: flex;
+  justify-content: center;
+  }
+
+.item {
+  flex: 1;
+  margin: auto
+}
+
+.item-double {
+  flex: 2;
+  margin: auto;
+}
+
+/*Class Styles*/
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.font-size14 {
+  font-size: 14px;
+}
